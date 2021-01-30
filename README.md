@@ -83,7 +83,8 @@ the project to continue developing and maintaining it.
 
 Clone the repo and type 
 
-    $ ./mvnw clean install 
+    $ ./mvnw clean install  -DskipTests
+    $ ./mvnw docker:build -pl spring-cloud-dataflow-server
 
 Looking for more information? Follow this [link](https://github.com/spring-cloud/spring-cloud-dataflow/blob/master/spring-cloud-dataflow-docs/src/main/asciidoc/appendix-building.adoc).
 
